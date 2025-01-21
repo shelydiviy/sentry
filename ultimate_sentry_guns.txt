@@ -1,0 +1,195 @@
+[ru]
+USG_MENU_NUMBER = \y[\r%d\y]^t\w
+USG_MENU_TITLE = [CSDM] Меню пушки^nВладелец: \y[\r%s\y]^n^n
+USG_MENU_UPGRADE = \wУлучшить %s
+USG_MENU_UPGRADE_CANT = \dУлучшить %s
+USG_MENU_RESET = \wСбросить %s
+USG_MENU_RESET_CANT = \dСбросить %s
+USG_MENU_EXIT = Выход
+
+USG_ALERT_UPDATE_ANY = !tВашу пушку улучшил !n%s !t до !n%d !tуровня.
+USG_ALERT_UPDATE_SELF = !tВы улучшили пушку до !n%d !tуровня.
+USG_ALERT_UPDATE_ANY_ADDITION = !tВашу пушку улучшил !n%s !tдо !n%d !tуровня, и выбрал: !n%L!t.
+USG_ALERT_UPDATE_SELF_ADDITION = !tВы улучшили пушку до !n%d !tуровня, и выбрали: !n%L!t.
+USG_ALERT_RESET = !tВы сбросили свою пушку до !n%d !tуровня.
+
+USG_BLOCK_FOR_AWAY = !tВы слишком далеко от пушки!
+USG_BLOCK_MOVE = !tУстановка при движении запрещена!
+USG_BLOCK_AIR = !tУстановка в воздухе запрещена!
+USG_BLOCK_SENTRY_NEAR = !tСлишком близко к другой пушке!
+USG_BLOCK_NEAR = !tЭто место не подходит для установки!
+USG_BLOCK_MAX = !tВы исчерпали свой запас пушек, установлено !n%d !tиз !n%d!t!
+USG_BLOCK_RESET = !tНедостаточно прав для сброса!
+USG_BLOCK_UPGRADE = !tНедостаточно прав для улучшения!
+USG_BLOCK_UPGRADE_SELF = !tВы не можете улучшить после себя повторно, обратитесь к союзникам!
+USG_BLOCK_RESET_ANY = !tПушку может сбросить только владелец!
+USG_BLOCK_COST = !tНедостаточно средств, Вам не хватает !n%d!t$!
+
+USG_TAG = !g[Пушки]
+USG_TAG_CONSOLE = [UltimaSentryGuns][0.8-b]
+USG_ERROR_LOADCONFIG = Ошибка загрузки конфигурации
+USG_YOU = Вы
+USG_VER = \dВерсия пушек 0.8-b
+
+USG_SPAN_INSTALL = Установил
+USG_SPAN_INSTALL_SELF = Ваша пушка
+USG_SPAN_LVL = Уровень
+USG_SPAN_HEAD = Башня
+USG_SPAN_BASE = Основание
+USG_SPAN_DURABILITY = Прочность
+USG_SPAN_MODULE = Модуль
+USG_SPAN_AURA = Аура
+
+USG_LVL_4_0_CHAT = Модуль: Радиация 
+USG_LVL_4_1_CHAT = Модуль: Горение 
+USG_LVL_4_2_CHAT = Модуль: Газ
+USG_LVL_4_3_CHAT = Пулемёт: 14.5мм
+USG_LVL_4_4_CHAT = Аддон: Плазма 
+USG_LVL_4_5_CHAT = Аддон: Лазер
+USG_LVL_4_6_CHAT = Аддон: Заряд 
+
+USG_LVL_4_0 = Модуль\d: \rРадиация %s
+USG_LVL_4_1 = Модуль\d: \rГорение %s
+USG_LVL_4_2 = Модуль\d: \rГаз %s^n
+USG_LVL_4_3 = Пулемёт\d: \r14.5мм %s^n
+USG_LVL_4_4 = Аддон\d: \rПлазма %s
+USG_LVL_4_5 = Аддон\d: \rЛазер %s
+USG_LVL_4_6 = Аддон\d: \rЗаряд %s
+
+USG_LVL_4_0_CANT = \dМодуль: Радиация %s
+USG_LVL_4_1_CANT = \dМодуль: Горение %s
+USG_LVL_4_2_CANT = \dМодуль: Газ %s^n
+USG_LVL_4_3_CANT = \dПулемёт: 14.5мм %s^n
+USG_LVL_4_4_CANT = \dАддон: Плазма %s
+USG_LVL_4_5_CANT = \dАддон: Лазер %s
+USG_LVL_4_6_CANT = \dАддон: Заряд %s
+
+USG_LVL_5_0_CHAT = Аура: Вампиризм
+USG_LVL_5_1_CHAT = Аура: Отражение
+USG_LVL_5_2_CHAT = Аура: Крит
+USG_LVL_5_3_CHAT = Аура: Лёд
+USG_LVL_5_4_CHAT = Аура: Обойма 
+USG_LVL_5_5_CHAT = Аура: Невидимость
+USG_LVL_5_6_CHAT = Аура: Тряска
+
+USG_LVL_5_0 = Аура\d: \rВампиризм %s
+USG_LVL_5_1 = Аура\d: \rОтражение %s
+USG_LVL_5_2 = Аура\d: \rКрит %s
+USG_LVL_5_3 = Аура\d: \rЛёд %s^n
+USG_LVL_5_4 = Аура\d: \rОбойма %s
+USG_LVL_5_5 = Аура\d: \rНевидимость %s
+USG_LVL_5_6 = Аура\d: \rТряска %s
+
+USG_LVL_5_0_CANT = \dАура: Вампиризм %s
+USG_LVL_5_1_CANT = \dАура: Отражение %s
+USG_LVL_5_2_CANT = \dАура: Крит %s
+USG_LVL_5_3_CANT = \dАура: Лёд %s^n
+USG_LVL_5_4_CANT = \dАура: Обойма %s
+USG_LVL_5_5_CANT = \dАура: Невидимость %s
+USG_LVL_5_6_CANT = \dАура: Тряска %s
+
+USG_AURA_NAME_0 = Вампиризм
+USG_AURA_NAME_1 = Отражение
+USG_AURA_NAME_2 = Крит
+USG_AURA_NAME_3 = Лёд
+USG_AURA_NAME_4 = Обойма
+USG_AURA_NAME_5 = Невидимость
+USG_AURA_NAME_6 = Тряска
+
+[en]
+USG_MENU_NUMBER = \y[\r%d\y]^t\w
+USG_MENU_TITLE = [CSDM] Меню пушки^nВладелец: \y[\r%s\y]^n^n
+USG_MENU_UPGRADE = \wУлучшить %s
+USG_MENU_UPGRADE_CANT = \dУлучшить %s
+USG_MENU_RESET = \wСбросить %s
+USG_MENU_RESET_CANT = \dСбросить %s
+USG_MENU_EXIT = Выход
+
+USG_ALERT_UPDATE_ANY = !tВашу пушку улучшил !n%s !t до !n%d !tуровня.
+USG_ALERT_UPDATE_SELF = !tВы улучшили пушку до !n%d !tуровня.
+USG_ALERT_UPDATE_ANY_ADDITION = !tВашу пушку улучшил !n%s !tдо !n%d !tуровня, и выбрал: !n%L!t.
+USG_ALERT_UPDATE_SELF_ADDITION = !tВы улучшили пушку до !n%d !tуровня, и выбрали: !n%L!t.
+USG_ALERT_RESET = !tВы сбросили свою пушку до !n%d !tуровня.
+
+USG_BLOCK_FOR_AWAY = !tВы слишком далеко от пушки!
+USG_BLOCK_MOVE = !tУстановка при движении запрещена!
+USG_BLOCK_AIR = !tУстановка в воздухе запрещена!
+USG_BLOCK_SENTRY_NEAR = !tСлишком близко к другой пушке!
+USG_BLOCK_NEAR = !tЭто место не подходит для установки!
+USG_BLOCK_MAX = !tВы исчерпали свой запас пушек, установлено !n%d !tиз !n%d!t!
+USG_BLOCK_RESET = !tНедостаточно прав для сброса!
+USG_BLOCK_UPGRADE = !tНедостаточно прав для улучшения!
+USG_BLOCK_UPGRADE_SELF = !tВы не можете улучшить после себя повторно, обратитесь к союзникам!
+USG_BLOCK_RESET_ANY = !tПушку может сбросить только владелец!
+USG_BLOCK_COST = !tНедостаточно средств, Вам не хватает !n%d!t$!
+
+USG_TAG = !g[Пушки]
+USG_TAG_CONSOLE = [UltimaSentryGuns][0.8-b]
+USG_ERROR_LOADCONFIG = Ошибка загрузки конфигурации
+USG_YOU = Вы
+USG_VER = \dВерсия пушек 0.8-b
+
+USG_SPAN_INSTALL = Установил
+USG_SPAN_INSTALL_SELF = Ваша пушка
+USG_SPAN_LVL = Уровень
+USG_SPAN_HEAD = Башня
+USG_SPAN_BASE = Основание
+USG_SPAN_DURABILITY = Прочность
+USG_SPAN_MODULE = Модуль
+USG_SPAN_AURA = Аура
+
+USG_LVL_4_0_CHAT = Модуль: Радиация 
+USG_LVL_4_1_CHAT = Модуль: Горение 
+USG_LVL_4_2_CHAT = Модуль: Газ
+USG_LVL_4_3_CHAT = Пулемёт: 14.5мм
+USG_LVL_4_4_CHAT = Аддон: Плазма 
+USG_LVL_4_5_CHAT = Аддон: Лазер
+USG_LVL_4_6_CHAT = Аддон: Заряд 
+
+USG_LVL_4_0 = Модуль\d: \rРадиация %s
+USG_LVL_4_1 = Модуль\d: \rГорение %s
+USG_LVL_4_2 = Модуль\d: \rГаз %s^n
+USG_LVL_4_3 = Пулемёт\d: \r14.5мм %s^n
+USG_LVL_4_4 = Аддон\d: \rПлазма %s
+USG_LVL_4_5 = Аддон\d: \rЛазер %s
+USG_LVL_4_6 = Аддон\d: \rЗаряд %s
+
+USG_LVL_4_0_CANT = \dМодуль: Радиация %s
+USG_LVL_4_1_CANT = \dМодуль: Горение %s
+USG_LVL_4_2_CANT = \dМодуль: Газ %s^n
+USG_LVL_4_3_CANT = \dПулемёт: 14.5мм %s^n
+USG_LVL_4_4_CANT = \dАддон: Плазма %s
+USG_LVL_4_5_CANT = \dАддон: Лазер %s
+USG_LVL_4_6_CANT = \dАддон: Заряд %s
+
+USG_LVL_5_0_CHAT = Аура: Вампиризм
+USG_LVL_5_1_CHAT = Аура: Отражение
+USG_LVL_5_2_CHAT = Аура: Крит
+USG_LVL_5_3_CHAT = Аура: Лёд
+USG_LVL_5_4_CHAT = Аура: Обойма 
+USG_LVL_5_5_CHAT = Аура: Невидимость
+USG_LVL_5_6_CHAT = Аура: Тряска
+
+USG_LVL_5_0 = Аура\d: \rВампиризм %s
+USG_LVL_5_1 = Аура\d: \rОтражение %s
+USG_LVL_5_2 = Аура\d: \rКрит %s
+USG_LVL_5_3 = Аура\d: \rЛёд %s^n
+USG_LVL_5_4 = Аура\d: \rОбойма %s
+USG_LVL_5_5 = Аура\d: \rНевидимость %s
+USG_LVL_5_6 = Аура\d: \rТряска %s
+
+USG_LVL_5_0_CANT = \dАура: Вампиризм %s
+USG_LVL_5_1_CANT = \dАура: Отражение %s
+USG_LVL_5_2_CANT = \dАура: Крит %s
+USG_LVL_5_3_CANT = \dАура: Лёд %s^n
+USG_LVL_5_4_CANT = \dАура: Обойма %s
+USG_LVL_5_5_CANT = \dАура: Невидимость %s
+USG_LVL_5_6_CANT = \dАура: Тряска %s
+
+USG_AURA_NAME_0 = Вампиризм
+USG_AURA_NAME_1 = Отражение
+USG_AURA_NAME_2 = Крит
+USG_AURA_NAME_3 = Лёд
+USG_AURA_NAME_4 = Обойма
+USG_AURA_NAME_5 = Невидимость
+USG_AURA_NAME_6 = Тряска
