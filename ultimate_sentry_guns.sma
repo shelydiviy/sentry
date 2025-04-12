@@ -2345,7 +2345,7 @@ public sentry_trace_attack(ent, data[class_sentry]) {
 		if (xs_vac_equal(start,start_pev))
 			trace_target = 0
 			continue
-		
+		}
 		data[_sentry_trace_touch_pos] = start
 		
 		if (trace_hit == HIT_SHIELD) {
