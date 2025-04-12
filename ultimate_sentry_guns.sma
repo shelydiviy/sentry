@@ -2336,7 +2336,7 @@ public sentry_trace_attack(ent, data[class_sentry]) {
 	
 	while (trace_target > 0) {
 		engfunc(EngFunc_TraceLine, start, end, DONT_IGNORE_MONSTERS, trace_target, trace)
-		engfunc(EngFunc_TraceHull, start, end, HULL_HEAD, trace_target, trace)
+		//engfunc(EngFunc_TraceHull, start, end, HULL_HEAD, trace_target, trace)
 		
 		trace_target = get_tr2(trace, TR_pHit)
 		trace_hit = get_tr2(trace, TR_iHitgroup)
